@@ -19,30 +19,104 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int buttonBarStyle=0x7f010000;
     }
     public static final class color {
+        public static final int black=0x7f040002;
         public static final int black_overlay=0x7f040000;
+        public static final int journal_entry_listitem_text_color=0x7f040006;
+        public static final int note_text_disabled=0x7f040007;
+        public static final int reaction_color_selected=0x7f040004;
+        public static final int static_text_color=0x7f040005;
+        public static final int symptom_color_selected=0x7f040003;
+        public static final int white=0x7f040001;
+    }
+    public static final class dimen {
+        /**  Default screen margins, per the Android Design guidelines. 
+
+         Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
+    
+         */
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int a3=0x7f020000;
+        public static final int abs=0x7f020001;
+        public static final int add=0x7f020002;
+        public static final int alert_dialog_icon=0x7f020003;
+        public static final int back=0x7f020004;
+        public static final int bg=0x7f020005;
+        public static final int blue_bg_with_text=0x7f020006;
+        public static final int cal_left_arrow_off=0x7f020007;
+        public static final int cal_left_arrow_on=0x7f020008;
+        public static final int cal_right_arrow_off=0x7f020009;
+        public static final int cal_right_arrow_on=0x7f02000a;
+        public static final int calendar_bar=0x7f02000b;
+        public static final int calendar_bg_orange=0x7f02000c;
+        public static final int calendar_button_selector=0x7f02000d;
+        public static final int calendar_centralheader=0x7f02000e;
+        public static final int calendar_left_arrow_selector=0x7f02000f;
+        public static final int calendar_right_arrow_selector=0x7f020010;
+        public static final int calendar_tile=0x7f020011;
+        public static final int calendar_tile_small=0x7f020012;
+        public static final int calendar_top_header=0x7f020013;
+        public static final int calendar_view=0x7f020014;
+        public static final int create_event=0x7f020015;
+        public static final int current_date=0x7f020016;
+        public static final int delete=0x7f020017;
+        public static final int deleted=0x7f020018;
+        public static final int ic_launcher=0x7f020019;
+        public static final int ic_popup_reminder=0x7f02001a;
+        public static final int icon=0x7f02001b;
+        public static final int list_event=0x7f02001c;
+        public static final int out_of_month=0x7f02001d;
+        public static final int split=0x7f02001e;
+        public static final int synchronize=0x7f02001f;
+        public static final int view=0x7f020020;
     }
     public static final class id {
-        public static final int calendarView1=0x7f070003;
-        public static final int dummy_button=0x7f070002;
-        public static final int fullscreen_content=0x7f070000;
-        public static final int fullscreen_content_controls=0x7f070001;
-        public static final int tab1=0x7f070008;
-        public static final int tab2=0x7f070009;
-        public static final int tableRow1=0x7f070004;
-        public static final int tableRow2=0x7f070005;
-        public static final int tableRow3=0x7f070006;
-        public static final int tableRow4=0x7f070007;
+        public static final int action_settings=0x7f090014;
+        public static final int calendar=0x7f090013;
+        public static final int calendarView1=0x7f090004;
+        public static final int calendar_day_gridcell=0x7f09000b;
+        public static final int calendarheader=0x7f090012;
+        public static final int container=0x7f090000;
+        public static final int currentMonth=0x7f090010;
+        public static final int dummy_button=0x7f090003;
+        public static final int fullscreen_content=0x7f090001;
+        public static final int fullscreen_content_controls=0x7f090002;
+        public static final int item_text=0x7f09000e;
+        public static final int nextMonth=0x7f090011;
+        public static final int normal_day=0x7f09000d;
+        public static final int num_events_per_day=0x7f09000c;
+        public static final int prevMonth=0x7f09000f;
+        public static final int tab1=0x7f090009;
+        public static final int tab2=0x7f09000a;
+        public static final int tableRow1=0x7f090005;
+        public static final int tableRow2=0x7f090006;
+        public static final int tableRow3=0x7f090007;
+        public static final int tableRow4=0x7f090008;
     }
     public static final class layout {
-        public static final int activity_tohar=0x7f030000;
+        public static final int activity_calendar_view=0x7f030000;
+        public static final int activity_tohar=0x7f030001;
+        public static final int calendar_day_gridcell=0x7f030002;
+        public static final int fragment_calendar_view=0x7f030003;
+        public static final int list_item=0x7f030004;
+        public static final int simple_calendar_view=0x7f030005;
+    }
+    public static final class menu {
+        public static final int calendar_view=0x7f080000;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int dummy_button=0x7f050001;
-        public static final int dummy_content=0x7f050002;
+        public static final int action_settings=0x7f060005;
+        public static final int app_name=0x7f060000;
+        public static final int dummy_button=0x7f060001;
+        public static final int dummy_content=0x7f060002;
+        public static final int hello_world=0x7f060004;
+        public static final int image=0x7f060007;
+        public static final int previous=0x7f060006;
+        public static final int title_activity_calendar_view=0x7f060003;
     }
     public static final class style {
         /** 
@@ -57,14 +131,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
         
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
-        public static final int ButtonBar=0x7f060003;
-        public static final int ButtonBarButton=0x7f060004;
-        public static final int FullscreenTheme=0x7f060002;
+        public static final int AppTheme=0x7f070001;
+        public static final int ButtonBar=0x7f070003;
+        public static final int ButtonBarButton=0x7f070004;
+        public static final int FullscreenTheme=0x7f070002;
+        public static final int calendar_event_style=0x7f070005;
     }
     public static final class styleable {
         /** 

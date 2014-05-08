@@ -4,5 +4,10 @@
     <string name="app_name">Tohar</string>
     <string name="dummy_button">go</string>
     <string name="dummy_content">Tohar</string>
+    <string name="title_activity_calendar_view">CalendarViewActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="previous">previous</string>
+    <string name="image">image</string>
 
 </resources>

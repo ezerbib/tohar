@@ -1,0 +1,20 @@
+<!-- From: file:/home/eric/git/tohar/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.software.tohar">
+
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/title_activity_calendar_view" android:name="com.software.tohar.CalendarViewActivity" android:theme="@style/AppTheme">
+                  <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:configChanges="orientation|keyboardHidden|screenSize" android:label="@string/app_name" android:name="com.software.tohar.ToharActivity" android:theme="@style/FullscreenTheme">
+       
+        
+        </activity>
+    </application>
+
+</manifest>

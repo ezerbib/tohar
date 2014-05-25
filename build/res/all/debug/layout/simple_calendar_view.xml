@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+
+
+	<!-- <Button
+		android:id="@+id/selectedDayMonthYear"
+		android:textColor="#FFFFFF"
+		android:layout_gravity="center"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:background="@drawable/calendar_top_header"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	</Button> -->
+
+<Linearlayout 
+     android:orientation="horizontal" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content">
+
+		<imageView
+			android:id="@+id/prevMonth"
+			android:src="@drawable/calendar_left_arrow_selector"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</imageView>
+		
+		<Button
+		    android:id="@+id/currentMonth"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		   
+		    android:background="@drawable/calendar_bar"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="#FFFFFF" >
+
+		</Button>
+		<imageView
+			android:id="@+id/nextMonth"
+			android:src="@drawable/calendar_right_arrow_selector"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</imageView>
+</Linearlayout>
+	
+
+	<LinearLayout
+		android:layout_gravity="center"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<imageView
+			android:id="@+id/calendarheader"
+			android:src="@drawable/blue_bg_with_text"
+			android:layout_gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		</imageView>
+	</LinearLayout>
+
+	<GridView
+	    android:id="@+id/calendar"
+	    android:layout_width="fill_parent"
+	    android:layout_height="309dp"
+	    android:numColumns="7" >
+
+	</GridView>
+
+</LinearLayout>
+<!-- From: file:/home/eric/git/tohar/res/layout/simple_calendar_view.xml -->

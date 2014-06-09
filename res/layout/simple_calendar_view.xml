@@ -17,17 +17,17 @@
 		android:layout_height="wrap_content">
 	</Button> -->
 
-<Linearlayout 
+<LinearLayout 
      android:orientation="horizontal" 
      android:layout_width="fill_parent" 
      android:layout_height="wrap_content">
 
-		<imageView
+		<ImageView
 			android:id="@+id/prevMonth"
 			android:src="@drawable/calendar_left_arrow_selector"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content">
-		</imageView>
+		</ImageView>
 		
 		<Button
 		    android:id="@+id/currentMonth"
@@ -39,26 +39,26 @@
 		    android:textColor="#FFFFFF" >
 
 		</Button>
-		<imageView
+		<ImageView
 			android:id="@+id/nextMonth"
 			android:src="@drawable/calendar_right_arrow_selector"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content">
-		</imageView>
-</Linearlayout>
+		</ImageView>
+</LinearLayout>
 	
 
 	<LinearLayout
 		android:layout_gravity="center"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content">
-		<imageView
+		<ImageView
 			android:id="@+id/calendarheader"
 			android:src="@drawable/blue_bg_with_text"
 			android:layout_gravity="center"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content">
-		</imageView>
+		</ImageView>
 	</LinearLayout>
 
 	<GridView

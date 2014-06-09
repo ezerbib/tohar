@@ -17,19 +17,20 @@
             android:name="com.software.tohar.CalendarViewActivity" 
             android:label="@string/title_activity_calendar_view"
             android:theme="@style/AppTheme">
-                  <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+               
         </activity>
         
         <activity
             android:name="com.software.tohar.ToharActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme" >
-       
+            android:theme="@style/CalendarTheme.WithActionBar">
+            
+          <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         
         </activity>
     </application>

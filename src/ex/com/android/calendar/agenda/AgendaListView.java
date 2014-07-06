@@ -16,15 +16,15 @@
 
 package ex.com.android.calendar.agenda;
 
+import com.software.tohar.R;
+
 import ex.com.android.calendar.CalendarController;
 import ex.com.android.calendar.DeleteEventHelper;
-import ex.com.android.calendar.R;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.CalendarController.EventType;
 import ex.com.android.calendar.agenda.AgendaAdapter.ViewHolder;
 import ex.com.android.calendar.agenda.AgendaWindowAdapter.AgendaItem;
 import ex.com.android.calendar.agenda.AgendaWindowAdapter.DayAdapterInfo;
-
 import android.content.Context;
 import android.graphics.Rect;
 import android.os.Handler;

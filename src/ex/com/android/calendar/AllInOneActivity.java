@@ -16,6 +16,7 @@
 
 package ex.com.android.calendar;
 
+
 import android.accounts.AccountManager;
 import android.accounts.AccountManagerCallback;
 import android.accounts.AccountManagerFuture;
@@ -63,7 +64,6 @@ import android.widget.RelativeLayout.LayoutParams;
 import android.widget.SearchView;
 import android.widget.SearchView.OnSuggestionListener;
 import android.widget.TextView;
-
 import ex.com.android.calendar.CalendarController.EventHandler;
 import ex.com.android.calendar.CalendarController.EventInfo;
 import ex.com.android.calendar.CalendarController.EventType;
@@ -76,6 +76,8 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
+
+import com.software.tohar.R;
 
 import static android.provider.CalendarContract.Attendees.ATTENDEE_STATUS;
 import static android.provider.CalendarContract.EXTRA_EVENT_ALL_DAY;

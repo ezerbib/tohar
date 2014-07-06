@@ -59,7 +59,7 @@ import ex.com.android.calendar.AsyncQueryService;
 import ex.com.android.calendar.CalendarController;
 import ex.com.android.calendar.CalendarEventModel;
 import ex.com.android.calendar.DeleteEventHelper;
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.CalendarController.EventHandler;
 import ex.com.android.calendar.CalendarController.EventInfo;

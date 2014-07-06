@@ -46,6 +46,7 @@
     <item quantity="other" msgid="1709378992389618261">"<xliff:g id="COUNT">%d</xliff:g> days"</item>
   </plurals>
   <plurals name="weekN">
+      <item quantity="one" msgid="5988137255732166573">"1 week"</item>
     <item quantity="other" msgid="8085184869561028365">"WEEK <xliff:g id="COUNT">%d</xliff:g>"</item>
   </plurals>
     <string name="calendar_refresh" msgid="6172731193680500025">"Refresh"</string>
@@ -179,6 +180,7 @@
     <string name="preferences_general_title" msgid="2069075513760573117">"Calendar view setting"</string>
     <string name="preferences_reminder_title" msgid="5199606534191180129">"Notifications &amp; reminders"</string>
     <string name="preferences_hide_declined_title" msgid="1849295943669890034">"Hide declined events"</string>
+    <string name="preferences_week_start_day_default" msgid="4619489296444901622">"Week starts on"</string>
     <string name="preferences_week_start_day_title" msgid="4619489296444901622">"Week starts on"</string>
     <string name="preferences_week_start_day_dialog" msgid="5181634128884089113">"Week starts on"</string>
     <string name="preferences_clear_search_history_title" msgid="6619916370215282982">"Clear search history"</string>
@@ -194,6 +196,7 @@
     <string name="preferences_use_home_tz_title" msgid="5597546849968598210">"Use home time zone"</string>
     <string name="preferences_use_home_tz_descrip" msgid="4835375381297413746">"Displays calendars and event times in your home time zone when travelling"</string>
     <string name="preferences_home_tz_title" msgid="6680000444088818578">"Home time zone"</string>
+    <string name="preferences_home_tz_default" msgid="6680000444088818578">"Default time zone"</string>
     <string name="preferences_show_week_num_title" msgid="5280734329664503461">"Show week number"</string>
     <string name="preferences_about_title" msgid="2810624892412097879">"About"</string>
     <string name="preferences_build_version" msgid="8242471883413502068">"Build version"</string>
@@ -274,4 +277,5 @@
     <item quantity="other" msgid="8779598489398048259">"For <xliff:g id="EVENT_COUNT">%d</xliff:g> events"</item>
   </plurals>
     <string name="acessibility_recurrence_choose_end_date_description" msgid="5899029840837836711">"change end date"</string>
+    <string name="tardis"></string>
 </resources>

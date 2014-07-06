@@ -17,7 +17,6 @@
 package ex.com.android.calendar;
 
 import static android.provider.CalendarContract.EXTRA_EVENT_BEGIN_TIME;
-
 import android.accounts.Account;
 import android.app.Activity;
 import android.app.SearchManager;
@@ -50,7 +49,6 @@ import android.text.style.URLSpan;
 import android.text.util.Linkify;
 import android.util.Log;
 import android.widget.SearchView;
-
 import ex.com.android.calendar.CalendarController.ViewType;
 import ex.com.android.calendar.CalendarEventModel.ReminderEntry;
 import ex.com.android.calendar.CalendarUtils.TimeZoneUtils;
@@ -70,6 +68,8 @@ import java.util.Set;
 import java.util.TimeZone;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import com.software.tohar.R;
 
 public class Utils {
     private static final boolean DEBUG = false;

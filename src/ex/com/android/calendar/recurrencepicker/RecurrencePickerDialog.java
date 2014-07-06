@@ -56,9 +56,9 @@ import android.widget.ToggleButton;
 
 import com.android.datetimepicker.date.DatePickerDialog;
 
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
-import ex.com.android.calendarcommon2.EventRecurrence;
+import com.android.calendarcommon2.EventRecurrence;
 
 import java.text.DateFormatSymbols;
 import java.util.ArrayList;

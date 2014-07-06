@@ -42,7 +42,7 @@ import android.widget.ListAdapter;
 import android.widget.TextView;
 
 import ex.com.android.calendar.AsyncQueryService;
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.selectcalendars.SelectCalendarsSyncAdapter.CalendarRow;
 

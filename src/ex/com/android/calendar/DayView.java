@@ -76,7 +76,6 @@ import android.widget.OverScroller;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
-
 import ex.com.android.calendar.CalendarController.EventType;
 import ex.com.android.calendar.CalendarController.ViewType;
 
@@ -87,6 +86,8 @@ import java.util.Formatter;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import com.software.tohar.R;
 
 /**
  * View for multi-day view. So far only 1 and 7 day have been tested.

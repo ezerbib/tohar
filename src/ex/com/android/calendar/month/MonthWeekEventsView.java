@@ -17,7 +17,7 @@
 package ex.com.android.calendar.month;
 
 import ex.com.android.calendar.Event;
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
 
 import android.animation.Animator;

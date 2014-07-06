@@ -32,7 +32,7 @@ import android.widget.AbsListView.LayoutParams;
 
 import ex.com.android.calendar.CalendarController;
 import ex.com.android.calendar.Event;
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.CalendarController.EventType;
 import ex.com.android.calendar.CalendarController.ViewType;

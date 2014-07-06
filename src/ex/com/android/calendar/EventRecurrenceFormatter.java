@@ -23,6 +23,7 @@ import android.text.format.Time;
 import android.util.TimeFormatException;
 
 import com.android.calendarcommon2.EventRecurrence;
+import com.software.tohar.R;
 
 import java.util.Calendar;
 

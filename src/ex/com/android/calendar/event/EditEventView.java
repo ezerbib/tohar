@@ -16,6 +16,13 @@
 
 package ex.com.android.calendar.event;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Formatter;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.TimeZone;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DialogFragment;
@@ -67,6 +74,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
+import com.android.calendarcommon2.EventRecurrence;
 import com.android.common.Rfc822InputFilter;
 import com.android.common.Rfc822Validator;
 import com.android.datetimepicker.date.DatePickerDialog;
@@ -81,27 +89,19 @@ import com.android.ex.chips.RecipientEditTextView;
 import com.android.timezonepicker.TimeZoneInfo;
 import com.android.timezonepicker.TimeZonePickerDialog;
 import com.android.timezonepicker.TimeZonePickerUtils;
+import com.software.tohar.R;
 
 import ex.com.android.calendar.CalendarEventModel;
+import ex.com.android.calendar.CalendarEventModel.Attendee;
+import ex.com.android.calendar.CalendarEventModel.ReminderEntry;
 import ex.com.android.calendar.EmailAddressAdapter;
 import ex.com.android.calendar.EventInfoFragment;
 import ex.com.android.calendar.EventRecurrenceFormatter;
 import ex.com.android.calendar.GeneralPreferences;
-import ex.com.android.calendar.R;
 import ex.com.android.calendar.RecipientAdapter;
 import ex.com.android.calendar.Utils;
-import ex.com.android.calendar.CalendarEventModel.Attendee;
-import ex.com.android.calendar.CalendarEventModel.ReminderEntry;
 import ex.com.android.calendar.event.EditEventHelper.EditDoneRunnable;
 import ex.com.android.calendar.recurrencepicker.RecurrencePickerDialog;
-import ex.com.android.calendarcommon2.EventRecurrence;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Formatter;
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.TimeZone;
 
 public class EditEventView implements View.OnClickListener, DialogInterface.OnCancelListener,
         DialogInterface.OnClickListener, OnItemSelectedListener,

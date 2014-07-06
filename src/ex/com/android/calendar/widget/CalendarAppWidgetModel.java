@@ -16,7 +16,7 @@
 
 package ex.com.android.calendar.widget;
 
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
 
 import android.content.Context;

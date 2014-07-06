@@ -16,6 +16,8 @@
 
 package ex.com.android.calendar;
 
+import com.software.tohar.R;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;

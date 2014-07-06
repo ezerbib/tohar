@@ -16,6 +16,8 @@
 
 package ex.com.android.calendar.alerts;
 
+import java.util.Arrays;
+
 import android.app.ListActivity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -26,10 +28,9 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
-import ex.com.android.calendar.R;
-import ex.com.android.calendar.Utils;
+import com.software.tohar.R;
 
-import java.util.Arrays;
+import ex.com.android.calendar.Utils;
 
 /**
  * Activity which displays when the user wants to email guests from notifications.

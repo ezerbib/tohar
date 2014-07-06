@@ -33,6 +33,8 @@ import android.view.MenuItem;
 
 import java.util.List;
 
+import com.software.tohar.R;
+
 public class CalendarSettingsActivity extends PreferenceActivity {
     private static final int CHECK_ACCOUNTS_DELAY = 3000;
     private Account[] mAccounts;

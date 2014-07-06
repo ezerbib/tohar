@@ -16,8 +16,9 @@
 
 package ex.com.android.calendar.alerts;
 
-import ex.com.android.calendar.R;
-import ex.com.android.calendar.Utils;
+
+import java.util.Locale;
+import java.util.TimeZone;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -30,8 +31,9 @@ import android.view.View;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
 
-import java.util.Locale;
-import java.util.TimeZone;
+import com.software.tohar.R;
+
+import ex.com.android.calendar.Utils;
 
 public class AlertAdapter extends ResourceCursorAdapter {
 

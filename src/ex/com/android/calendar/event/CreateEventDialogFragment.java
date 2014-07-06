@@ -39,13 +39,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.software.tohar.R;
+
 import ex.com.android.calendar.AsyncQueryService;
 import ex.com.android.calendar.CalendarController;
+import ex.com.android.calendar.CalendarController.EventType;
 import ex.com.android.calendar.CalendarEventModel;
 import ex.com.android.calendar.GeneralPreferences;
-import ex.com.android.calendar.R;
 import ex.com.android.calendar.Utils;
-import ex.com.android.calendar.CalendarController.EventType;
 
 
 /**

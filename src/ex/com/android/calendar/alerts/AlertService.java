@@ -16,6 +16,11 @@
 
 package ex.com.android.calendar.alerts;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.TimeZone;
+
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.Service;
@@ -42,15 +47,11 @@ import android.text.format.DateUtils;
 import android.text.format.Time;
 import android.util.Log;
 
+import com.software.tohar.R;
+
 import ex.com.android.calendar.GeneralPreferences;
 import ex.com.android.calendar.OtherPreferences;
-import ex.com.android.calendar.R;
 import ex.com.android.calendar.Utils;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.TimeZone;
 
 /**
  * This service is used to handle calendar event reminders.

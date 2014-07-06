@@ -42,7 +42,7 @@ import android.widget.CursorTreeAdapter;
 import android.widget.TextView;
 
 import ex.com.android.calendar.CalendarColorPickerDialog;
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.selectcalendars.CalendarColorCache.OnCalendarColorsLoadedListener;
 

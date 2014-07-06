@@ -40,9 +40,7 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.BaseAdapter;
 import android.widget.GridLayout;
 import android.widget.TextView;
-
 import ex.com.android.calendar.CalendarController;
-import ex.com.android.calendar.R;
 import ex.com.android.calendar.StickyHeaderListView;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.CalendarController.EventType;
@@ -54,6 +52,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Locale;
 import java.util.concurrent.ConcurrentLinkedQueue;
+
+import com.software.tohar.R;
 
 /*
 Bugs Bugs Bugs:

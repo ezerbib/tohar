@@ -39,7 +39,7 @@ import android.view.View;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.widget.CalendarAppWidgetModel.DayInfo;
 import ex.com.android.calendar.widget.CalendarAppWidgetModel.EventInfo;

@@ -36,15 +36,15 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.ListView;
-
 import ex.com.android.calendar.AsyncQueryService;
 import ex.com.android.calendar.EventInfoActivity;
-import ex.com.android.calendar.R;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.alerts.GlobalDismissManager.AlarmId;
 
 import java.util.LinkedList;
 import java.util.List;
+
+import com.software.tohar.R;
 
 /**
  * The alert panel that pops up when there is a calendar event alarm.

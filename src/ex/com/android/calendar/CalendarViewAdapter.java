@@ -17,7 +17,6 @@
 package ex.com.android.calendar;
 
 import ex.com.android.calendar.CalendarController.ViewType;
-
 import android.content.Context;
 import android.os.Handler;
 import android.text.format.DateUtils;
@@ -30,6 +29,8 @@ import android.widget.TextView;
 
 import java.util.Formatter;
 import java.util.Locale;
+
+import com.software.tohar.R;
 
 
 /*

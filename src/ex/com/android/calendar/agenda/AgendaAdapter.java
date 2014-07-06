@@ -29,14 +29,14 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
-
 import ex.com.android.calendar.ColorChipView;
-import ex.com.android.calendar.R;
 import ex.com.android.calendar.Utils;
 
 import java.util.Formatter;
 import java.util.Locale;
 import java.util.TimeZone;
+
+import com.software.tohar.R;
 
 public class AgendaAdapter extends ResourceCursorAdapter {
     private final String mNoTitleLabel;

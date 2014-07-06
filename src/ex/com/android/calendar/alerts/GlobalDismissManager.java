@@ -16,6 +16,15 @@
 
 package ex.com.android.calendar.alerts;
 
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -32,18 +41,10 @@ import android.provider.CalendarContract.Events;
 import android.util.Log;
 import android.util.Pair;
 
+import com.software.tohar.R;
+
 import ex.com.android.calendar.CloudNotificationBackplane;
 import ex.com.android.calendar.ExtensionsFactory;
-import ex.com.android.calendar.R;
-
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 /**
  * Utilities for managing notification dismissal across devices.

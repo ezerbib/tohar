@@ -18,6 +18,8 @@ package ex.com.android.calendar;
 import static android.provider.CalendarContract.EXTRA_EVENT_BEGIN_TIME;
 import static android.provider.CalendarContract.EXTRA_EVENT_END_TIME;
 
+import com.software.tohar.R;
+
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.FragmentManager;
@@ -40,7 +42,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MenuItem.OnActionExpandListener;
 import android.widget.SearchView;
-
 import ex.com.android.calendar.CalendarController.EventInfo;
 import ex.com.android.calendar.CalendarController.EventType;
 import ex.com.android.calendar.CalendarController.ViewType;

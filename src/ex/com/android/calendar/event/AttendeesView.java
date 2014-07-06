@@ -16,13 +16,9 @@
 
 package ex.com.android.calendar.event;
 
-import com.android.common.Rfc822Validator;
-
-import ex.com.android.calendar.ContactsAsyncHelper;
-import ex.com.android.calendar.R;
-import ex.com.android.calendar.Utils;
-import ex.com.android.calendar.CalendarEventModel.Attendee;
-import ex.com.android.calendar.event.EditEventHelper.AttendeeItem;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashSet;
 
 import android.content.AsyncQueryHandler;
 import android.content.ContentResolver;
@@ -52,9 +48,13 @@ import android.widget.LinearLayout;
 import android.widget.QuickContactBadge;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedHashSet;
+import com.android.common.Rfc822Validator;
+import com.software.tohar.R;
+
+import ex.com.android.calendar.CalendarEventModel.Attendee;
+import ex.com.android.calendar.ContactsAsyncHelper;
+import ex.com.android.calendar.Utils;
+import ex.com.android.calendar.event.EditEventHelper.AttendeeItem;
 
 public class AttendeesView extends LinearLayout implements View.OnClickListener {
     private static final String TAG = "AttendeesView";

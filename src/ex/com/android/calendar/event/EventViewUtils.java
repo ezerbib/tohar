@@ -15,7 +15,7 @@
  */
 package ex.com.android.calendar.event;
 
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.CalendarEventModel.ReminderEntry;
 
 import android.app.Activity;

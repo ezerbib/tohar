@@ -27,6 +27,8 @@ import android.util.Log;
 
 import java.util.Arrays;
 
+import com.software.tohar.R;
+
 /**
  * Fragment to facilitate editing of quick responses when emailing guests
  *

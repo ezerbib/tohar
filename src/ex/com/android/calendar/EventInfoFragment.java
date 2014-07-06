@@ -20,7 +20,6 @@ import static android.provider.CalendarContract.EXTRA_EVENT_ALL_DAY;
 import static android.provider.CalendarContract.EXTRA_EVENT_BEGIN_TIME;
 import static android.provider.CalendarContract.EXTRA_EVENT_END_TIME;
 import static ex.com.android.calendar.CalendarController.EVENT_EDIT_ON_LAUNCH;
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ObjectAnimator;
@@ -106,9 +105,11 @@ import ex.com.android.calendar.event.EditEventActivity;
 import ex.com.android.calendar.event.EditEventHelper;
 import ex.com.android.calendar.event.EventColorPickerDialog;
 import ex.com.android.calendar.event.EventViewUtils;
-import ex.com.android.calendarcommon2.DateException;
-import ex.com.android.calendarcommon2.Duration;
-import ex.com.android.calendarcommon2.EventRecurrence;
+
+import com.android.calendarcommon2.DateException;
+import com.android.calendarcommon2.Duration;
+import com.android.calendarcommon2.EventRecurrence;
+import com.software.tohar.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

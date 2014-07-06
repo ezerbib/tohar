@@ -16,9 +16,10 @@
 
 package ex.com.android.calendar;
 
+import com.software.tohar.R;
+
 import ex.com.android.calendar.CalendarController.EventInfo;
 import ex.com.android.calendar.CalendarController.EventType;
-
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;

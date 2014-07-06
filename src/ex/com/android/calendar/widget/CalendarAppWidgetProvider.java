@@ -36,7 +36,7 @@ import android.widget.RemoteViews;
 
 import ex.com.android.calendar.AllInOneActivity;
 import ex.com.android.calendar.EventInfoActivity;
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
 
 /**

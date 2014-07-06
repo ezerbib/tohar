@@ -16,6 +16,10 @@
 
 package ex.com.android.calendar.alerts;
 
+import java.util.Locale;
+import java.util.Map;
+import java.util.TimeZone;
+
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.ContentUris;
@@ -32,13 +36,10 @@ import android.text.format.DateUtils;
 import android.text.format.Time;
 import android.util.Log;
 
-import ex.com.android.calendar.EventInfoActivity;
-import ex.com.android.calendar.R;
-import ex.com.android.calendar.Utils;
+import com.software.tohar.R;
 
-import java.util.Locale;
-import java.util.Map;
-import java.util.TimeZone;
+import ex.com.android.calendar.EventInfoActivity;
+import ex.com.android.calendar.Utils;
 
 public class AlertUtils {
     private static final String TAG = "AlertUtils";

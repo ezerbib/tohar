@@ -28,7 +28,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
 import ex.com.android.calendar.Utils;
 
 public class SelectSyncedCalendarsMultiAccountActivity extends ExpandableListActivity

@@ -50,6 +50,7 @@ import com.android.timezonepicker.TimeZoneInfo;
 import com.android.timezonepicker.TimeZonePickerDialog;
 import com.android.timezonepicker.TimeZonePickerDialog.OnTimeZoneSetListener;
 import com.android.timezonepicker.TimeZonePickerUtils;
+import com.software.tohar.R;
 
 import ex.com.android.calendar.alerts.AlertReceiver;
 

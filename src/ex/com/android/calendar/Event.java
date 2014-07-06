@@ -37,6 +37,8 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import com.software.tohar.R;
+
 // TODO: should Event be Parcelable so it can be passed via Intents?
 public class Event implements Cloneable {
 

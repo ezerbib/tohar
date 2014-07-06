@@ -18,7 +18,6 @@ package ex.com.android.calendar;
 import static android.provider.CalendarContract.EXTRA_EVENT_BEGIN_TIME;
 import static android.provider.CalendarContract.EXTRA_EVENT_END_TIME;
 import static android.provider.CalendarContract.Attendees.ATTENDEE_STATUS;
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.FragmentManager;
@@ -33,11 +32,12 @@ import android.provider.CalendarContract;
 import android.provider.CalendarContract.Attendees;
 import android.util.Log;
 import android.widget.Toast;
-
 import ex.com.android.calendar.CalendarEventModel.ReminderEntry;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.software.tohar.R;
 
 public class EventInfoActivity extends Activity {
 //        implements CalendarController.EventHandler, SearchView.OnQueryTextListener,

@@ -33,11 +33,9 @@ import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.Adapter;
 import android.widget.HeaderViewListAdapter;
-
 import ex.com.android.calendar.CalendarController;
 import ex.com.android.calendar.EventInfoFragment;
 import ex.com.android.calendar.GeneralPreferences;
-import ex.com.android.calendar.R;
 import ex.com.android.calendar.StickyHeaderListView;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.CalendarController.EventInfo;
@@ -45,6 +43,8 @@ import ex.com.android.calendar.CalendarController.EventType;
 import ex.com.android.calendar.CalendarController.ViewType;
 
 import java.util.Date;
+
+import com.software.tohar.R;
 
 public class AgendaFragment extends Fragment implements CalendarController.EventHandler,
         OnScrollListener {

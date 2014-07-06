@@ -27,8 +27,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
-import ex.com.android.calendar.R;
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.agenda.AgendaWindowAdapter.DayAdapterInfo;
 
@@ -37,6 +35,8 @@ import java.util.Formatter;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Locale;
+
+import com.software.tohar.R;
 
 public class AgendaByDayAdapter extends BaseAdapter {
     private static final int TYPE_DAY = 0;

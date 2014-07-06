@@ -16,6 +16,10 @@
 
 package ex.com.android.calendar.alerts;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
+
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -43,13 +47,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import ex.com.android.calendar.R;
+import com.software.tohar.R;
+
 import ex.com.android.calendar.Utils;
 import ex.com.android.calendar.alerts.AlertService.NotificationWrapper;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Pattern;
 
 /**
  * Receives android.intent.action.EVENT_REMINDER intents and handles

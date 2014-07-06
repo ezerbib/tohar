@@ -15,6 +15,8 @@
  */
 package ex.com.android.calendar;
 
+import com.software.tohar.R;
+
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;

@@ -31,6 +31,7 @@ import android.util.SparseIntArray;
 import com.android.colorpicker.ColorPickerDialog;
 import com.android.colorpicker.ColorPickerSwatch.OnColorSelectedListener;
 import com.android.colorpicker.HsvColorComparator;
+import com.software.tohar.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

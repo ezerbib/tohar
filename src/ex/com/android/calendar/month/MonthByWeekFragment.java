@@ -334,8 +334,10 @@ public class MonthByWeekFragment extends SimpleDayPickerFragment implements
 
         mDayLabels = new String[7];
         for (int i = Calendar.SUNDAY; i <= Calendar.SATURDAY; i++) {
-            mDayLabels[i - Calendar.SUNDAY] = DateUtils.getDayOfWeekString(i,
-                    DateUtils.LENGTH_MEDIUM).toUpperCase();
+           // mDayLabels[i - Calendar.SUNDAY] = DateUtils.getDayOfWeekString(i,
+           //         DateUtils.LENGTH_MEDIUM).toUpperCase();
+        	 mDayLabels[i - Calendar.SUNDAY] = DateUtils.getDayOfWeekString(i,
+        	                    DateUtils.LENGTH_MEDIUM);
         }
     }
 

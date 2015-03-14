@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     <ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
+        
         android:id="@+id/event_info_scroll_view"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -380,7 +380,7 @@
             </LinearLayout>
 
             <!-- GUEST LIST -->
-            <com.android.calendar.event.AttendeesView
+            <ex.com.android.calendar.event.AttendeesView
                 android:id="@+id/long_attendee_list"
                 android:textColor="@color/event_info_body_color"
                 android:orientation="vertical"

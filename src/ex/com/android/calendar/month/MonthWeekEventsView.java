@@ -939,7 +939,7 @@ public class MonthWeekEventsView extends SimpleWeekView {
                     event.endMillis, DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_ABBREV_ALL,
                     Utils.getTimeZone(getContext(), null)).toString();
             text = TextUtils.ellipsize(text, mEventExtrasPaint, avail, TextUtils.TruncateAt.END);
-            canvas.drawText(text.toString(), textX, textY, isDeclined ? mEventDeclinedExtrasPaint
+            canvas.drawText("tohar_"+text.toString(), textX, textY, isDeclined ? mEventDeclinedExtrasPaint
                     : mEventExtrasPaint);
             y += mExtrasHeight;
         }
